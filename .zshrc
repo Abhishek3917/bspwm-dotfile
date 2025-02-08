@@ -9,7 +9,7 @@ HISTSIZE=10000
 SAVEHIST=$HISTSIZE
 setopt appendhistory
 
-HISTFILE="$XDG_CACHE_HOME/zsh/history"
+HISTFILE=".zsh_history"
 autoload -Uz compinit promptinit
 compinit
 zstyle ':completion:*' menu select
@@ -24,3 +24,4 @@ fi
 
 
 eval "$(starship init zsh)"
+export PATH="$PATH:$HOME/.local/bin"
