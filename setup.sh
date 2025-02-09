@@ -1,10 +1,10 @@
 #setting up bspwm
 
-sudo pacman -S ttf-jetbrains-mono-nerd ttf-fira-code  --noconfirm --needed
+sudo pacman -S ttf-jetbrains-mono-nerd ttf-fira-code starship alacritty mpv --noconfirm --needed
 
-cp -v config/alacritty ../.config/
+mv -v config/alacritty ../.config/
 cp -v config/starship.toml ../.config/
 mkdir ../Downloads
 mkdir ../Desktop
 mkdir ../Pictures
-cp -v Pictures ../
+mv -v Pictures ../

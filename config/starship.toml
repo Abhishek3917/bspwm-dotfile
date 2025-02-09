@@ -12,7 +12,6 @@ $line_break\
 $jobs\
 $character"""
 
-
 [aws]
 symbol = "  "
 
@@ -35,10 +34,14 @@ symbol = " "
 symbol = " "
 
 [directory]
+style="Bold #268bd2"
 read_only = " 󰌾"
 
 [docker_context]
 symbol = " "
+
+[elixir]
+symbol = " "
 
 [elm]
 symbol = " "
@@ -50,6 +53,7 @@ symbol = " "
 symbol = " "
 
 [git_branch]
+style="bold #8b2355"
 symbol = " "
 
 [git_commit]
@@ -76,6 +80,9 @@ ssh_symbol = " "
 [java]
 symbol = " "
 
+[julia]
+symbol = " "
+
 [kotlin]
 symbol = " "
 
@@ -84,6 +91,12 @@ symbol = " "
 
 [memory_usage]
 symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
@@ -177,5 +190,21 @@ symbol = " "
 [gradle]
 symbol = " "
 
-[character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)'
+# custom
+[character]
+success_symbol = '[ 󰁔](bold green)'
+error_symbol = '[ 󰁔](bold red)'
+
+[git_status]
+ahead = "󰁝"
+behind = "󰁅"
+
+[cmd_duration]
+format = '[$duration]($style) '
+show_milliseconds = false
+
+[sudo]
+disabled = false
+
+[fill]
+symbol = ' '
