@@ -13,7 +13,8 @@ mkdir ../Pictures
 mkdir ../.config/polybar
 mv -v Pictures ../
 mv -v config/polybar ../.config/
-mv -v config/sxhkd/ ../.config/
+mv -v config/sxhkd/sxhkdrc ../.config/sxhkd/
+mv -v config/bspwm/bspwmrc ../.config/bspwm/
 chmod +x ../.config/bspwm/bspwmrc
 chmod +x ../.config/sxhkd/sxhkdrc
 chmod +x ../.config/polybar/launch.sh
