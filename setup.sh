@@ -23,3 +23,4 @@ rm .config/ranger/rc.conf
 mv -v config/ranger/rc.conf ../.config/ranger
 sed -i '53i ~/.fehbg &' ~/.xinitrc
 rm -r ../bspwm-dotfile
+mv -v .zshrc ../
