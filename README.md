@@ -1,1 +1,2 @@
-
+- status:on progress
+- modifie the ```setup.sh``` to your preference before running 
