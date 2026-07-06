@@ -1,11 +1,30 @@
 
-
 [colors.primary]
-background = "#04232b"
-foreground = "#839496"
+background = "#083344" # Deep ocean navy blue
+foreground = "#dce7ea" # Clean, beautiful ice-white
+
+[colors.normal]
+black = "#1c1f3a"
+red = "#ff5c5c"
+green = "#00e676"
+yellow = "#ffb300"
+blue = "#00b0ff"
+magenta = "#d500f9"
+cyan = "#00e5ff"
+white = "#b0bec5"
+
+[colors.bright]
+black = "#546e7a"
+red = "#ff1744"
+green = "#69f0ae"
+yellow = "#ffd740"
+blue = "#40c4ff"
+magenta = "#f50057"
+cyan = "#18ffff"
+white = "#ffffff"
 
 [colors.vi_mode_cursor]
-cursor = "0x268bd2"
+cursor = "#00d7ff"       # Vibrant electric cyan
 text = "CellBackground"
 
 [font]
@@ -67,6 +86,16 @@ mods = "Control|Shift"
 action = "SpawnNewInstance"
 key = "Return"
 mods = "Control|Shift"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001bb"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001bf"
 
 [scrolling]
 history = 10000
